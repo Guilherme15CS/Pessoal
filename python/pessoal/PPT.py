@@ -1,12 +1,12 @@
 from random import randint
 computador = randint(1, 3)
-print('-=' * 20)
+print('-=' * 20) 
 print('VAMOS JOGAR PEDRA, PAPEL E TESOURA')
 print('-=' * 20)
 print('''[1] Para PEDRA
 [2] Para PAPEL
 [3] Para TESOURA''')
-jogada = int(input('Qual será a sua jogada? '))
+jogada = int(input('Qual será a sua jogada? ')) 
 print('-=' * 20)
 if computador == 1 :
     computador = 'Pedra'
