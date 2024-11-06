@@ -53,4 +53,3 @@ Sálario é {registro[deta][3]}''')
     if opc == 4:
         break
 
-
